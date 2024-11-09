@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-wallpaper-module": ["../src/index"],
+      "expo-wallpaper-module/*": ["../src/*"]
+    }
+  }
+}
